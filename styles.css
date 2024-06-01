@@ -1,0 +1,123 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #3f3e3e;
+    color: #fffbfb;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project {
+    background: #252222;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('SIM.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    }
+
+    a:hover {
+        color: red; /* Change this to your desired color */
+        text-decoration: none; /* Add underline on hover if desired */
+    }
+
+    a {
+        color: rgb(255, 255, 255); /* Change this to your desired color */
+        text-decoration: none; /* Remove underline if desired */
+    }
+
+    a:active {
+        color: green; /* Change this to your desired color */
+    }
+
+    a:visited {
+        color: rgb(7, 172, 255); /* Change this to your desired color */
+    }
+
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom:-30px;
+    }
+
+    .profile-img {
+        width: 250px; /* Set the desired width */
+        height: 250px; /* Set the desired height */
+        border-radius: 50%; /* Make it circular */
+        object-fit: cover; /* Ensure the image covers the element and is centered */
+        border: 2px solid #ccc; /* Optional: add a border around the image */
+    }
